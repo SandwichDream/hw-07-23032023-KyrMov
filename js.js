@@ -68,7 +68,7 @@ window.onload = ()=>{
     // Game
 
     let words = ["програма", "людина", "малюнок", "музика", "слово", "світ", "фон", "гра", "магія"];
-    let randomWord = words[Math.floor(Math.random()*9)];
+    let randomWord = words[Math.floor(Math.random()*words.length)];
     let result = [];
     let changeChance = false;
     let chance = 3;
