@@ -84,7 +84,7 @@ window.onload = ()=>{
     }
 
     for(let i = 0; true; i++){
-        let word = String(prompt(`Слово: [${String(result).replaceAll(",","")}].\nШансів: ${chance}\nВведіть одну маленьку літеру:`))
+        let word = String(prompt(`Слово: [${String(result).replaceAll(",","")}].\nКількість шансів: ${chance}\nВведіть одну маленьку літеру:`))
 
         changeChance = true;
 
